@@ -41,7 +41,7 @@ ul.team li {
     }
 
     h1 {
-        font-size: 40pt;
+        font-size: 36pt;
     }
     ul.team li {
         width: 43%;
@@ -57,7 +57,7 @@ ul.team li {
     }
 
     h1 {
-        font-size: 48pt;
+        font-size: 44pt;
     }
     ul.team li {
         width: 45%;
@@ -71,7 +71,7 @@ ul.team li {
         padding: 0.5em 3%;
         width: 74%;
     }
-    h1 { font-size: 54pt; }
+    h1 { font-size: 50pt; }
 
 }
 
@@ -100,7 +100,7 @@ ul.team li {
         padding: 0.5em 2%;
         width: 50%;
     }
-    h1 { font-size: 64pt; }
+    h1 { font-size: 55pt; }
     ul.team li {
         width: 29%;
     }
