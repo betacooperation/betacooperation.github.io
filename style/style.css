@@ -1,0 +1,184 @@
+body {
+    position: relative;
+    background-color: #325068;
+}
+
+body #page {
+    background: white;
+    color: #333;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Mobile first */
+body #page {
+    position: relative;
+    left: 3%;
+    right: 3%;
+    padding: 0.5em 3%;
+    width: 88%;
+}
+
+h1 {
+    font-size: 30pt;
+}
+ul.team li {
+    width: 42%;
+}
+
+/* Desktop versions */
+@media (min-width: 400px) {
+    body #page {
+        left: 5%;
+        right: 5%;
+        padding: 0.5em 4%;
+        width: 82%;
+    }
+
+    h1 {
+        font-size: 40pt;
+    }
+    ul.team li {
+        width: 43%;
+    }
+}
+
+@media (min-width: 500px) {
+    body #page {
+        left: 7%;
+        right: 7%;
+        padding: 0.5em 4%;
+        width: 78%;
+    }
+
+    h1 {
+        font-size: 48pt;
+    }
+    ul.team li {
+        width: 45%;
+    }
+}
+
+@media (min-width: 600px) {
+    body #page {
+        left: 10%;
+        right: 10%;
+        padding: 0.5em 3%;
+        width: 74%;
+    }
+    h1 { font-size: 54pt; }
+
+}
+
+@media (min-width: 700px) {
+    body #page {
+        left: 15%;
+        right: 15%;
+        padding: 0.5em 3%;
+        width: 64%;
+    }
+}
+
+@media (min-width: 800px) {
+    body #page {
+        left: 20%;
+        right: 20%;
+        padding: 0.5em 3%;
+        width: 54%;
+    }
+}
+
+@media (min-width: 1000px) {
+    body #page {
+        left: 23%;
+        right: 23%;
+        padding: 0.5em 2%;
+        width: 50%;
+    }
+    h1 { font-size: 64pt; }
+    ul.team li {
+        width: 29%;
+    }
+}
+
+@media (min-width: 1500px) {
+    body #page {
+        left: 28%;
+        right: 28%;
+        padding: 0.5em 2%;
+        width: 40%;
+    }
+    ul.team li {
+        width: 30%;
+    }
+}
+
+h1, h2, dt {
+    color: #325068;
+    font-family: serif;
+}
+
+p, div, dd, li {
+    font-family: sans-serif;
+    color: #333;
+}
+
+a {
+    font-family: sans-serif;
+}
+
+h1 img {
+    height: 1em;
+}
+
+h2 {
+    margin-top: 2em;
+}
+
+h1 {
+    margin-top: 0.2em;
+    margin-bottom: 0;
+}
+
+dl dt {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+dl dd {
+    margin-bottom: 1em;
+}
+
+ul.team {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul.team li {
+    display: inline-block;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+ul.team li .name {
+    font-weight: bold;
+}
+
+ul.team li .title {
+    font-style: italic;
+}
+
+ul.team li img {
+    width: 100%;
+}
+
+img.office {
+    float: left;
+    width: 40%;
+    margin-right: 1em;
+}
+
+.clearfix {
+    clear: both;
+}
