@@ -22,7 +22,7 @@ h1 {
     font-size: 30pt;
 }
 ul.team li {
-    width: 42%;
+    width: 95%;
 }
 
 /* Desktop versions */
@@ -114,16 +114,16 @@ ul.team li {
 
 h1, h2, dt {
     color: #325068;
-    font-family: serif;
+    font-family: Palatino Georgia serif;
 }
 
 p, div, dd, li {
-    font-family: sans-serif;
+    font-family: Helvetica sans-serif;
     color: #333;
 }
 
 a {
-    font-family: sans-serif;
+    font-family: Helvetica sans-serif;
 }
 
 h1 img {
