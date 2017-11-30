@@ -1,3 +1,7 @@
 .developer {
   margin: 30px;
 }
+
+.team-wrap .tabs-content {
+  background: transparent;
+}
