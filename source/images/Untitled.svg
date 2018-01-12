@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 380 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-700,-400)">
+        <path d="M700,400L740,400L740,420L780,420L780,480L700,480L700,400"/>
+    </g>
+    <g transform="matrix(-1,0,0,1,1080,-400)">
+        <path d="M700,400L740,400L740,420L780,420L780,480L700,480L700,400"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-600,-500)">
+        <path d="M700,500L780,500L780,540L740,540L740,560L780,560L780,580L700,580L700,500Z"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-700,-400)">
+        <path d="M900,400L940,400L940,420L960,420L960,440L940,440L940,460L980,460L980,480L900,480L900,400"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-700,-400)">
+        <path d="M780,500L700,500L700,580L780,580L780,560L740,560L740,520L780,520L780,500Z"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-700,-400)">
+        <rect x="800" y="500" width="80" height="80"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-700,-400)">
+        <path d="M900,500L940,500L940,520L980,520L980,560L960,560L960,540L940,540L940,580L900,580L900,500Z"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-700,-400)">
+        <path d="M1000,500L1080,500L1080,540L1040,540L1040,580L1000,580L1000,500Z"/>
+    </g>
+</svg>

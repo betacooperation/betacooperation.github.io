@@ -1,0 +1,169 @@
+---
+title: Beta Corp.
+---
+
+.hero
+  .container.h100
+    .carousel
+      .carousel__container
+        .carousel__item.carousel__item--active style="background-image: url('#{asset_path(:images, "stadsring.png")}')"
+          .carousel__item__description
+            = image_tag "logo.svg", width: "115", class: "d-block space-b1"
+
+            p.paragraph.space-b0
+              | Meedenken, kwaliteit leveren en vooral plezier maken is ons motto. Dat ziet u terug in onze software.
+
+        .carousel__item style="background-image: url('#{asset_path(:images, "panopta.png")}')"
+          .carousel__item__description
+            = image_tag "panopta_logo.svg", width: "115", class: "d-block space-b1"
+
+            p.paragraph
+              | GDPR zonder hoofdpijn: eenvoudig, snel en correct data incidenten afhandelen
+            a.button.button--dark href="/panopta.html" Lees Meer
+
+        .carousel__item style="background-image: url('#{asset_path(:images, "secuform.png")}')"
+          .carousel__item__description
+            h2.heading.heading--s.color-primary SecuForm
+
+            p.paragraph Veilige client intake voor uw website
+            a.button.button--dark href="/secuform.html.html.html.html.html.html.html.html.html" Lees Meer
+
+section.section.section--dark
+  .container
+    .row.justify-content-center.color-text-on-dark
+      h2.heading.text-center.color-body Over Ons
+
+      .row.space-b1
+        .col-12.col-md-6
+          p.paragraph
+            | Beta Corp. is een groep freelancers die samen software ontwikkelen voor bedrijven. Onze focus ligt op hoog-technische prototypes en betrouwbare maar flexibele infrastructuur-projecten. Productontwikkeling is onze specialiteit.
+
+          p.paragraph.space-b0
+            | Veel van onze projecten zitten in de financiële sector: crowdfunding, mobiele betalingen, obligatie-uitgifte-systemen en betalingsplatformen.
+
+        .col-12.col-md-6
+          p.paragraph
+            | Ook zijn wij in de zorgsector actief. Daarbij zitten we op het snijvlak van security en privacy: ontsluiting van zorgdossiers aan patiënten, privacy-auditing-tools en document-encryptie.
+
+          p.paragraph.space-b0
+            | Bekende klanten van ons zijn: ABN Amro, Mijndomein, Nedap, NPO en Ericsson.
+
+      p.paragraph.space-b0.color-body.text-center
+        | Doordat Beta Corp. een samenwerkingsverband is, kunnen wij de continuïteit, hosting en support waarborgen van de door ons ontwikkelde systemen.
+
+section.section.section--shadow
+  .container
+    .row
+      .col
+        .text-center
+          h2.heading.center.color-primary Ons Team
+
+        .row
+          .col
+            .teammember
+              = image_tag "gerard.png", width: "100%", class: "d-block teammember__image"
+              h2.heading.heading--s Gerard
+              p.paragraph.space-b0
+                | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet auctor mattis. Fusce efficitur ipsum ac urna faucibus, vitae condimentum sem pulvinar.
+
+          .col
+            .teammember
+              = image_tag "bart.png", width: "100%", class: "d-block teammember__image"
+              h2.heading.heading--s Bart
+              p.paragraph.space-b0
+                | Ik ben een software developer, beveiligingsdeskundige en prototyper. Ik heb een masterdiploma in informatietechnologie en een minor in biomedische technologie; beide van de Universiteit Twente, Nederland. Daarnaast heb ik ook een CISSP-beveiligingstitel.
+
+          .col
+            .teammember
+              = image_tag "wes.png", width: "100%", class: "d-block teammember__image"
+              h2.heading.heading--s Wes
+              p.paragraph.space-b0
+                | Mijn vaardigheden komen het beste tot zijn recht in het omgaan met complexiteit. Mijn specialiteit is het bouwen van back-endsystemen die hoge capaciteit vereissen.
+
+          .col
+            .teammember
+              = image_tag "marcel.png", width: "100%", class: "d-block teammember__image"
+              h2.heading.heading--s Marcel
+              p.paragraph.space-b0
+                | Aliquam sapien ipsum, mollis non feugiat ac, molestie sit amet magna. Fusce mattis leo sed cursus gravida. Cras quis accumsan neque, sed feugiat sapien.
+
+          .col
+            .teammember
+              = image_tag "diederick.png", width: "100%", class: "d-block teammember__image"
+              h2.heading.heading--s Diederick
+              p.paragraph.space-b0
+                | Vanaf kinds af aan altijd bezig geweest met software ontwikkeling en van mijn hobby mijn werk gemaakt. Mijn specialiteit is de klantvraag om te zetten naar realiteit dmv. gebruiksvriendelijke UIs.
+
+section.section.section--dark
+  .container
+    .row.justify-content-center.color-text-on-dark
+      .col-md-10
+        .text-center
+          h2.heading.color-body Portfolio
+
+        .row.space-b1
+          .col-12.col-md-4
+            = image_tag "panopta.png", width: "100%", class: "d-block portfolio__image"
+            h2.heading.heading--s.portfolio__title.color-body Panopta
+            p.paragraph.portfolio__text
+              | Voor bedrijven die een praktische oplossing zoeken m.b.t. de nieuwe privacywetgevinging is Panopta een webapplicatie die helpt informatie-incidenten te managen.
+
+              br.space-b1
+
+              a.button.button--small.button--light href="/panopta.html"
+                | Lees Meer
+
+          .col-12.col-md-4
+            = image_tag "secuform.png", width: "100%", class: "d-block portfolio__image"
+            h2.heading.heading--s.portfolio__title.color-body SecuForm
+            p.paragraph.portfolio__text
+              | Voor zorginstellingen die een laagdrempelig inschrijfformulier op hun website willen, is SecuForm een webapplicatie die dit veilig en eenvoudig mogelijk maakt.
+
+              br.space-b1
+
+              a.button.button--small.button--light href="/secuform.html"
+                | Lees Meer
+
+          .col-12.col-md-4
+            = image_tag "leanfund.png", width: "100%", class: "d-block portfolio__image"
+            h2.heading.heading--s.portfolio__title.color-body Leanfund.us
+            p.paragraph.portfolio__text
+              | Crowdfunding-platform voor een verscheidenheid aan projecten. Beta Corp. draagt zorg voor hosting, het funding-proces en de betalingen.
+
+        .row
+          .col-12.col-md-4
+            = image_tag "mijndomein2.png", width: "100%", class: "d-block portfolio__image"
+            h2.heading.heading--s.portfolio__title.color-body Mijndomein Obligaties
+            p.paragraph.portfolio__text
+              | Platform voor de aanschaf, uitgifte en uitbetalingen van obligaties van Mijndomein. Beta Corp. draagt zorg voor het gehele proces, waaronder de uitkering van dividend aan de participanten.
+
+          .col-12.col-md-4
+            = image_tag "shield1.png", width: "100%", class: "d-block portfolio__image"
+            h2.heading.heading--s.portfolio__title.color-body Shield (Nedap)
+            p.paragraph.portfolio__text
+              | Framework dat op basis van Data, Context en Interactie (DCI) besluit of zorggegevens ontsloten morgen worden. Mee-ontwikkeld aan de basis van dit systeem om Nedap aan de privacywetgeving te laten voldoen.
+
+          .col-12.col-md-4
+            = image_tag "otx.png", width: "100%", class: "d-block portfolio__image"
+            h2.heading.heading--s.portfolio__title.color-body Bridge (OTX)
+            p.paragraph.portfolio__text
+              | Internationale logistiek-oplossing voor transport van kleding. Onze oplossing converteert zeer verschillende klant-API’s enerzijds (SAP/ JSON/CSV/XML) middels REST richting de nieuw ontwikkelde portal anderzijds.
+
+section.section.section--shadow
+  .container
+    .row.justify-content-center
+      .col-md-8
+        .text-center
+          h2.heading.color-primary Geïnteresseerd?
+
+        p.paragraph
+          | Neem contact met ons op om een afspraak te maken. U kunt gebruik maken van het onderstaand formulier, ons mailen of ons bellen.
+
+        form.contact action="http://formspree.io/info@betacorp.nl" method="POST"
+          input.textfield name="name" placeholder="Uw naam" type="text"
+          input.textfield name="_replyto" placeholder="Uw e-mailadres" type="email"
+          textarea.textarea name="message"
+
+          input.button.button--dark type="submit" value="Bericht versturen"
+
+

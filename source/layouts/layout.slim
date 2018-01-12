@@ -1,0 +1,44 @@
+doctype html
+html
+  head
+    meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
+    meta charset="utf-8"
+    meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"
+
+    title = current_page.data.title || "BetaCorp"
+
+    link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'
+    script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+
+    == stylesheet_link_tag :site
+    == javascript_include_tag  "carousel"
+
+  body class="#{page_classes}"
+    nav.main-header
+      .container
+        .row.align-items-center
+          .col-12.col-md-auto
+            = image_tag "logo_white.svg", width: "348", class: "d-block"
+
+          .col-12.col-md.text-left.text-sm-right
+            a.main-header__link href="/"
+              | Home
+            a.main-header__link href="/panopta.html"
+              | Panopta
+            a.main-header__link href="/secuform.html"
+              | SecuForm
+            a.main-header__link href="/#contact"
+              | Contact
+
+    == yield
+
+    section.section.section--dark#contact
+      .container
+        .row
+          .col.text-center
+            .space-b1
+              = image_tag "logo_white.svg", width: "174"
+
+            p.paragraph.color-text
+              | Beta Corp - Stadsring 248-250 - 3811HS Amersfoort - info@betacorp.nl - 06-472 72 430
+

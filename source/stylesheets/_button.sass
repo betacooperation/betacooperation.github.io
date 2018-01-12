@@ -1,0 +1,25 @@
+.button
+  display: inline-block
+  text-transform: uppercase
+  padding: 10px 30px
+  border: 2px solid map-get($colors, body)
+  text-decoration: none
+  font-weight: 600
+  background: none
+  transition: all .1s
+
+.button:hover
+  transform: translateY(5px)
+
+.button--small
+  padding: 5px 15px
+
+.button--dark
+  border-color: map-get($colors, text)
+  color: map-get($colors, text)
+  background: map-get($colors, body)
+
+.button--light
+  border-color: map-get($colors, body)
+  color: map-get($colors, body)
+  background: map-get($colors, text)
