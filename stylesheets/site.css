@@ -3679,12 +3679,14 @@ body {
   font-weight: 300;
   font-size: 16px;
   direction: ltr;
-  padding-top: 180px;
   letter-spacing: 0.5px;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+@media (min-width: 768px) {
+  body {
+    padding-top: 180px; } }
 .button {
   display: inline-block;
   text-transform: uppercase;
@@ -3716,12 +3718,8 @@ body {
 
 .main-header {
   background: #282828;
-  padding: 60px 0;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 100; }
+  display: block;
+  padding: 30px 0; }
 
 .main-header__link {
   display: inline-block;
@@ -3738,10 +3736,19 @@ body {
 .main-header__link:not(:last-child) {
   margin-right: 30px; }
 
+@media (min-width: 768px) {
+  .main-header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    padding: 60px 0; } }
 .hero {
   background: #282828;
   background: linear-gradient(#282828, #1b1b1b);
-  height: 50vh; }
+  height: 50vh;
+  min-height: 500px; }
 
 .section {
   padding: 60px 0;
@@ -3858,6 +3865,9 @@ hr,
 .space-b2 {
   margin-bottom: 60px !important; }
 
+.space-t1 {
+  margin-bottom: 30px !important; }
+
 .portfolio__image {
   margin-bottom: 15px;
   border-bottom: 12px solid #FFFFFF;
@@ -3903,3 +3913,7 @@ hr,
 
 .link:hover {
   transform: translateY(5px); }
+
+.logo {
+  width: 100%;
+  max-width: 348px; }
