@@ -61,6 +61,7 @@ $(function() {
       event.preventDefault();
       var page = $(event.currentTarget);
       gotoSlide(page.data("index"));
+      setTimer();
     });
   }
 

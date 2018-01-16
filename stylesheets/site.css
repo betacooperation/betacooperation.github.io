@@ -3865,24 +3865,16 @@ hr,
   padding-bottom: 20px; }
 
 .carousel__container {
-  -moz-box-orient: horizontal;
-  -ms-box-orient: horizontal;
-  -webkit-box-orient: horizontal;
-  -o-box-orient: horizontal;
-  box-orient: horizontal;
-  display: -moz-box;
-  display: -ms-box;
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: -o-box;
-  display: box;
+  display: block;
   transition: all 1s;
   height: 100%;
   position: relative;
-  margin-bottom: 8px; }
+  margin-bottom: 8px;
+  white-space: nowrap; }
 
 .carousel__item {
   width: 100%;
+  display: inline-block;
   height: 100%;
   padding: 60px;
   position: relative;
@@ -3891,6 +3883,7 @@ hr,
 .carousel__item__description {
   display: block;
   padding: 30px;
+  white-space: normal;
   width: 300px;
   position: absolute;
   color: #555555;
