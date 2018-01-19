@@ -3704,6 +3704,9 @@ a.text-dark:focus, a.text-dark:hover {
   -moz-font-feature-settings: "liga";
   -moz-osx-font-smoothing: grayscale; }
 
+.icon--s {
+  font-size: 18px; }
+
 body {
   background: #282828;
   font-family: "Arimo", sans-serif;
@@ -3963,6 +3966,9 @@ hr,
 .space-t1 {
   margin-bottom: 30px !important; }
 
+.space-r025 {
+  margin-right: 8px !important; }
+
 .portfolio__image {
   margin-bottom: 23px;
   padding-bottom: 3px;
@@ -4062,8 +4068,20 @@ hr,
 .link:hover:after {
   transform: translateY(3px); }
 
+.link--social:after {
+  content: none; }
+
 .logo {
   height: 110.5px; }
 
 .footer-logo {
   opacity: 0.4; }
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0; }
+
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0; }
