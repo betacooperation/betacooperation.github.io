@@ -3904,8 +3904,7 @@ hr,
   background: #FFFFFF;
   background-position: 50% 50%;
   background-size: cover;
-  transition: all 1s;
-  filter: none; }
+  transition: all 1s; }
 
 .carousel__item--active .carousel__item__image {
   animation: fade-in 2s linear forwards; }
@@ -3926,11 +3925,6 @@ hr,
 .carousel__page--active {
   background: #a6a6a6; }
 
-@keyframes fade-in {
-  0% {
-    filter: blur(8px); }
-  100% {
-    filter: blur(0px); } }
 .strong {
   font-weight: 600; }
 
