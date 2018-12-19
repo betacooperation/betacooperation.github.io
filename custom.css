@@ -5,3 +5,42 @@
 .team-wrap .tabs-content {
   background: transparent;
 }
+
+body.maintenance .color-text-on-dark a {
+  color: orange;
+}
+
+body.maintenance .color-text-on-dark a[href="#baseline-service"] {
+  color: #bbb;
+}
+
+body.maintenance h2 {
+  margin-top: 1em;
+  border-bottom: 1px solid orange;
+}
+
+body.maintenance h3 {
+  margin-top: 1.5em;
+  font-size: 1.1em;
+}
+
+body.maintenance h3::before {
+  content: "» ";
+  color: orange;
+}
+
+body.maintenance ul {
+  padding-left: 1.5em;
+
+}
+
+/* Undo the persistent header so we can properly use local anchors for navigation */
+@media (min-width: 768px) {
+  body.maintenance {
+    padding-top: 0;
+  }
+
+  .main-header {
+    position: initial;
+  }
+}
